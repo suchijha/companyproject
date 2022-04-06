@@ -1,0 +1,386 @@
+.sidebar{
+    display:flex;
+    margin-left: 0px;
+
+
+}
+.sidebar2{
+    margin-top:10px; 
+}
+.nav-menu{
+    
+    width:250px;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left:-100%;
+    transition: 850ms;
+    
+}
+.nav-menu.active{
+    left:0;
+    transition:350ms;
+}
+.nav-text{
+    display: flex;
+    list-style: none;
+    justify-content: start;
+    align-items: center;
+    padding:8px 8px 8px 16px ;
+    height:30px;
+}
+.icons{
+    margin-right:10px ;
+}
+.nav-text :hover{
+    background-color:blue ;
+    color:white ;
+} 
+.nav-texts{
+    display: flex;
+    list-style: none;
+    justify-content: start;
+    align-items: center;
+    padding:8px 8px 8px 16px ;
+    height:30px;
+    background-color: blue;
+    color:white;
+
+
+} 
+.side{
+    margin-left:250px ;
+    display: flex;
+}
+.leftside{
+    margin-top:5px ;
+}
+.name{ margin-left:10px ;
+    font-weight: bold;
+    font-size: larger;
+    background-color:lightblue ;
+}
+.patient-list{
+    color:blue;
+    margin-top:20px ;
+    background-color: lightblue;
+}
+img{
+    border-radius: 50%;
+}
+
+
+
+
+
+
+    
+.notes{
+    margin-top:10px ;
+    display: flex;
+    margin-left:2px ;
+    background-color:white ;
+}
+.seeall{
+    margin-left:150px ;
+    color:blue;
+    margin-right: 5px;
+}
+.complete{
+    background-color:white;
+    margin-left:50px ;
+    padding:10px 10px 10px 10px;
+    
+
+
+}
+.para{
+    background-color: lightblue;
+    width:300px ;
+    padding: 10px 10px 10px 10px;
+}
+.save{
+    margin-top:50px ;
+    background-color: blue;
+    color:white;
+
+    margin-right:80px ;
+    height: 30px;
+    width:80px;
+    margin-left:200px;
+
+    
+}
+.paragra{
+    padding:10px 10px 10px 10px ;
+    background-color: lightblue;
+}
+.para3{
+    display: flex;
+    
+}
+.para4{
+    margin-left:40px ;
+}
+.para5{
+    margin-top: 50px;
+}
+.complete{
+    background-color:white
+}
+
+.document2{
+  margin-top:5px ;
+
+    
+}
+.document3{
+    margin-top:5px ;
+   
+
+
+}
+.document4{
+    margin-top:5px ;
+    
+
+    
+    
+}
+
+.doc{
+    border-style: ridge;
+    margin-left: 20px;
+    
+    
+    margin-top: 20px;
+}
+.notes1{
+    border-style: ridge;
+    margin-left: 20px;
+    background-color: white;
+}
+.notes2{
+    margin-left:50px ;
+    background-color:white ;
+    
+}
+.addfiles{
+    display: flex;
+    font-weight: bold;
+    
+}
+.add{
+    margin-left:80px ;
+    color:blue;
+}
+.upcomingappointment{
+    margin-top:50px;
+    display:flex;
+}
+
+.upcoming2{
+    display: flex;
+}
+.bhiwadi{
+    margin-left:10px ;
+}
+.bhiwadi2{
+    margin-left: 40px;
+}
+.zipcode{
+    margin-left: 85px;
+}
+.sendm{
+    margin-top: 40px;
+    background-color: whitesmoke;
+    width:200px;
+}
+.rightside1{
+    display:flex;
+} 
+.flex1{
+    display: flex;
+}
+.main{
+    display:flex;
+}
+.main2{
+    display:flex;
+}
+.main1{
+    display: flex;
+}
+.main4{
+    display:flex;
+}
+.main5{
+    margin-left: 20px; 
+    background-color: white;
+    color:grey;
+    font-size:smaller;
+
+}
+.main6{
+    
+    background-color: white;
+    color:grey;
+    margin-left: 50px;
+    font-size: smaller;
+}
+.main9{
+    color:black;
+}
+.main7{
+    margin-left: 120px;
+    background-color: white;
+    font-size: smaller;
+color:grey;}
+.main10{
+    color:black;
+    
+}
+.main11
+{ 
+    margin-top: 30px;
+}
+.main13{
+    margin-top: 30px;
+}
+.main15{
+    margin-top: 30px;
+}
+.main20{
+    display: flex;
+}
+.main22{
+    display: flex;
+}
+.mem{
+    margin-top:30px ;
+}
+.imp{
+    display: flex;
+}
+.main20{
+    color:blue ;
+    
+} 
+.main21{
+    
+    display:flex;
+    background-color: lightblue;
+    font-size: x-small;
+
+} 
+.main23{
+    margin-left: 30px;
+}
+.box{
+    background-color: lightblue;
+    box-shadow: 10px 10px 5px lightblue;
+    
+}
+.main24{
+    display:flex;
+    background-color: white;
+}
+.box2{
+    background-color: white;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.main22{
+    margin-top:30px ;
+    box-shadow: 10px 10px 5px lightblue;
+}  
+.rightside{
+    background-color: lightblue;
+} 
+.main18{
+    background-color: white;
+    display: flex;
+}
+.main19{
+    background-color: white;
+}
+.main17{
+    background-color: white;
+}
+.main25{
+    color:black;
+    
+    font-size: larger;
+}
+.main26{
+    font-size: x-small;
+}
+.main27{
+    margin-left: 30px;
+    color: grey;
+    font-size: x-small;
+}
+.main28{
+    color:black;
+    font-size:small;
+    font-weight:bold ;
+}
+.main29{
+    margin-left:30px ;
+    color: grey;
+    font-size: x-small;
+}
+.main30{color:black;
+    font-size:small;
+    font-weight: bold;
+
+}
+.main31{
+    margin-left:30px ;
+    color: grey;
+    font-size: x-small;
+}
+
+.main32{color:black;
+    font-size:small;
+    font-weight: bold;
+
+
+}
+.main33{
+    font-size: larger;
+}
+.memb{
+    margin-left: 20px;
+    color:grey;
+    margin-top: 20px;
+    font-size: smaller;
+}
+.box3{
+    margin-top: 50px;
+    display: flex;
+    font-size: smaller;
+    
+}
+.box4{margin-left: 50px;
+    background-color: lightblue;
+}
+.main8{
+    color:black;
+}
+.main12{
+    color: black;
+}
+.mbj{
+    color:black;
+}
+.main14{
+    color:black;
+}
+.main16{
+    color: black;
+}
+.main34{
+    font-size: x-small;
+}
